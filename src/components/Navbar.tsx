@@ -8,9 +8,11 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
+  //  Link,
   Button,
 } from "@nextui-org/react"
+
+import Link from "next/link"
 
 export default function AppNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
