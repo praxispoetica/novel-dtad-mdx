@@ -89,7 +89,7 @@ export default function AppNavbar() {
                   : "foreground"
               }
               className="w-full"
-              href="#"
+              href={`${item.toLowerCase()}`}
               size="lg"
             >
               {item}
