@@ -39,7 +39,7 @@ export default function AppNavbar() {
         <NavbarBrand>
           <p className="font-bold text-inherit">
             <Link color="foreground" href="/">
-              ACME
+              Novel-DTAD-MDX
             </Link>
           </p>
         </NavbarBrand>
