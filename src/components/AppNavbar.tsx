@@ -11,6 +11,7 @@ import {
   Link,
   Button,
 } from "@nextui-org/react"
+import AppLogo from "./AppLogo"
 
 export default function AppNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
@@ -37,11 +38,14 @@ export default function AppNavbar() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-inherit">
-            <Link color="foreground" href="/">
-              Novel-DTAD-MDX
-            </Link>
-          </p>
+          <Link color="foreground" href="/">
+            <AppLogo />
+            <p className="ml-2 font-thin text-white">
+              kalliope
+              <br />
+              editor
+            </p>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 

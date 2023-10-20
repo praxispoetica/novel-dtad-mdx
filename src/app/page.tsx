@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-between p-12">
         <h1>Denying the Amerikan Dream</h1>
         <h2>Diary of a Mid-Century Refugee</h2>
-        <div className="mt-8 prose dark:prose-invert">
+        <div className="mt-8">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Id

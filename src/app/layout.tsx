@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { Providers } from "./providers"
-import AppNavbar from "@/components/Navbar"
+import AppNavbar from "@/components/AppNavbar"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -18,12 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={inter.className}>
+      <body>
         <Providers>
-          <>
+          <main className="dark text-slate-200 bg-background">
             <AppNavbar />
             {children}
-          </>
+          </main>
         </Providers>
       </body>
     </html>
